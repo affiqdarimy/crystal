@@ -6,14 +6,14 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #ffffff;
+    background: linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%);
     min-height: 100vh;
     color: #333;
     line-height: 1.6;
 }
 
 .header {
-    background: #ffffff;
+    background: #fff;
     padding: 1rem 0;
     position: sticky;
     top: 0;
@@ -34,8 +34,9 @@ body {
 .logo {
     font-size: 2rem;
     font-weight: bold;
-    color: #2c3e50;
+    color: #7c3aed;
     text-decoration: none;
+    letter-spacing: 1px;
 }
 
 .search-container {
@@ -55,25 +56,26 @@ body {
 
 .search-input:focus {
     outline: none;
-    border-color: #3498db;
-    box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+    border-color: #a78bfa;
+    box-shadow: 0 0 10px rgba(124, 58, 237, 0.2);
 }
 
 .filter-btn {
-    padding: 0.5rem 1rem;
-    background: #3498db;
-    color: white;
+    padding: 0.5rem 1.5rem;
+    background: linear-gradient(90deg, #a78bfa 0%, #7c3aed 100%);
+    color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
     cursor: pointer;
     transition: all 0.3s ease;
     font-weight: 500;
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.08);
 }
 
 .filter-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
-    background: #2980b9;
+    box-shadow: 0 5px 15px rgba(124, 58, 237, 0.18);
+    background: linear-gradient(90deg, #7c3aed 0%, #5b21b6 100%);
 }
 
 .main {
@@ -85,21 +87,25 @@ body {
 .hero {
     text-align: center;
     margin-bottom: 3rem;
-    color: #2c3e50;
+    color: #fff;
     padding: 3rem 0;
-    background: #f8f9fa;
+    background: linear-gradient(90deg, #a78bfa 0%, #7c3aed 100%);
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(124, 58, 237, 0.08);
 }
 
 .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #2c3e50;
-    font-weight: 600;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .hero p {
     font-size: 1.2rem;
-    opacity: 0.9;
+    opacity: 0.95;
+    color: #f3e8ff;
 }
 
 .crystal-grid {
@@ -110,10 +116,10 @@ body {
 }
 
 .crystal-card {
-    background: #ffffff;
-    border-radius: 10px;
+    background: #fff;
+    border-radius: 12px;
     padding: 1.5rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.08);
     transition: all 0.3s ease;
     cursor: pointer;
     position: relative;
@@ -128,43 +134,45 @@ body {
     left: 0;
     right: 0;
     height: 3px;
-    background: #3498db;
+    background: linear-gradient(90deg, #a78bfa 0%, #7c3aed 100%);
 }
 
 .crystal-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 32px rgba(124, 58, 237, 0.18);
 }
 
 .crystal-image {
     width: 100%;
     height: 200px;
-    background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
-    border-radius: 15px;
+    background: linear-gradient(90deg, #f3e8ff 0%, #c4b5fd 100%);
+    border-radius: 10px;
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
-    color: #667eea;
+    color: #7c3aed;
 }
 
 .crystal-name {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    color: #333;
+    color: #2c3e50;
 }
 
 .crystal-category {
     display: inline-block;
     padding: 0.3rem 0.8rem;
-    background: #3498db;
-    color: white;
-    border-radius: 5px;
-    font-size: 0.8rem;
+    background: linear-gradient(90deg, #a78bfa 0%, #7c3aed 100%);
+    color: #fff;
+    border-radius: 8px;
+    font-size: 0.85rem;
     margin-bottom: 1rem;
     font-weight: 500;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.08);
 }
 
 .crystal-description {
@@ -174,14 +182,14 @@ body {
 }
 
 .crystal-benefits {
-    background: #f8f9fa;
+    background: #f3e8ff;
     padding: 1rem;
     border-radius: 10px;
     margin-bottom: 1rem;
 }
 
 .crystal-benefits h4 {
-    color: #667eea;
+    color: #7c3aed;
     margin-bottom: 0.5rem;
 }
 
@@ -197,7 +205,7 @@ body {
 
 .crystal-benefits li::before {
     content: '✨ ';
-    color: #667eea;
+    color: #a78bfa;
 }
 
 .crystal-details {
@@ -216,13 +224,13 @@ body {
 
 .detail-label {
     font-size: 0.8rem;
-    color: #666;
+    color: #7c3aed;
     text-transform: uppercase;
 }
 
 .detail-value {
     font-weight: bold;
-    color: #333;
+    color: #2c3e50;
 }
 
 .modal {
@@ -233,12 +241,12 @@ body {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(124, 58, 237, 0.12);
     backdrop-filter: blur(5px);
 }
 
 .modal-content {
-    background: white;
+    background: #fff;
     margin: 5% auto;
     padding: 2rem;
     border-radius: 20px;
@@ -247,6 +255,7 @@ body {
     max-height: 80vh;
     overflow-y: auto;
     position: relative;
+    box-shadow: 0 4px 24px rgba(124, 58, 237, 0.12);
 }
 
 .close {
@@ -255,11 +264,12 @@ body {
     top: 1rem;
     font-size: 2rem;
     cursor: pointer;
-    color: #666;
+    color: #a78bfa;
+    transition: color 0.2s;
 }
 
 .close:hover {
-    color: #333;
+    color: #7c3aed;
 }
 
 .modal-header {
@@ -272,17 +282,17 @@ body {
 .modal-image {
     width: 100px;
     height: 100px;
-    background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
+    background: linear-gradient(90deg, #f3e8ff 0%, #c4b5fd 100%);
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    color: #667eea;
+    color: #7c3aed;
 }
 
 .modal-info h2 {
-    color: #333;
+    color: #2c3e50;
     margin-bottom: 0.5rem;
 }
 
@@ -293,15 +303,15 @@ body {
 }
 
 .section {
-    background: #f8f9fa;
+    background: #f3e8ff;
     padding: 1.5rem;
     border-radius: 15px;
 }
 
 .section h3 {
-    color: #667eea;
+    color: #7c3aed;
     margin-bottom: 1rem;
-    border-bottom: 2px solid #667eea;
+    border-bottom: 2px solid #a78bfa;
     padding-bottom: 0.5rem;
 }
 
@@ -321,7 +331,7 @@ body {
 
 .section li::before {
     content: '💎 ';
-    color: #667eea;
+    color: #a78bfa;
 }
 
 @media (max-width: 768px) {
@@ -371,7 +381,7 @@ body {
 }
 
 .contact-container h2 {
-    color: #2c3e50;
+    color: #7c3aed;
     font-size: 2rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
@@ -391,15 +401,15 @@ body {
 }
 
 .contact-item {
-    background: #ffffff;
+    background: #fff;
     padding: 1.5rem;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.08);
     border: 1px solid #e0e0e0;
 }
 
 .contact-item h3 {
-    color: #3498db;
+    color: #7c3aed;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
@@ -417,7 +427,7 @@ body {
 }
 
 .contact-item a {
-    color: #3498db;
+    color: #7c3aed;
     text-decoration: none;
     font-weight: 500;
 }
