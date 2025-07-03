@@ -1,4 +1,4 @@
-# 🌟 Qamara Boutique - Crystal Discovery Website
+# 🌟 Qamara Butiq - Crystal Discovery Website
 
 A beautiful, interactive website for discovering different types of crystals with their healing properties, characteristics, and benefits.
 
@@ -17,7 +17,7 @@ A beautiful, interactive website for discovering different types of crystals wit
 
 ## 🎯 Overview
 
-Qamara Boutique Crystal Discovery is a modern, responsive web application that showcases various crystals with detailed information about their healing properties, characteristics, and practical uses. The website features an intuitive interface with search functionality and interactive crystal cards.
+Qamara Butiq Crystal Discovery is a modern, responsive web application that showcases various crystals with detailed information about their healing properties, characteristics, and practical uses. The website features an intuitive interface with search functionality and interactive crystal cards.
 
 ## ✨ Features
 

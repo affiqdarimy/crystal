@@ -1,4 +1,4 @@
-# 🔧 Technical Documentation - Qamara Boutique Crystal Website
+# 🔧 Technical Documentation - Qamara Butiq Crystal Website
 
 ## 📋 Code Architecture Overview
 
@@ -32,7 +32,7 @@ Frontend Architecture:
     <!-- Meta tags for SEO and mobile optimization -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qamara Boutique - Crystal Discovery</title>
+    <title>Qamara Butiq - Crystal Discovery</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
